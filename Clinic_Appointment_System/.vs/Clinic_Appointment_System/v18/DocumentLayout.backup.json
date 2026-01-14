@@ -1,0 +1,68 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "H:\\C# Projects\\01_Clinic_Appointment_System\\Project\\Clinic_Appointment_System\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{5366BB86-F4C3-414D-8C44-1F094EF166A3}|..\\Clinic_Appointment_System_Data_Access_Layer\\Clinic_Appointment_System_Data_Access_Layer.csproj|h:\\c# projects\\01_clinic_appointment_system\\project\\clinic_appointment_system_data_access_layer\\paymentdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C2C2AFB-B3F9-4448-9E2F-2D409CF74699}|..\\Clinic_Appointment_System_Business_Layer\\Clinic_Appointment_System_Business_Layer.csproj|h:\\c# projects\\01_clinic_appointment_system\\project\\clinic_appointment_system_business_layer\\doctorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 191,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "PaymentData.cs",
+              "DocumentMoniker": "H:\\C# Projects\\01_Clinic_Appointment_System\\Project\\Clinic_Appointment_System_Data_Access_Layer\\PaymentData.cs",
+              "RelativeDocumentMoniker": "..\\Clinic_Appointment_System_Data_Access_Layer\\PaymentData.cs",
+              "ToolTip": "H:\\C# Projects\\01_Clinic_Appointment_System\\Project\\Clinic_Appointment_System_Data_Access_Layer\\PaymentData.cs",
+              "RelativeToolTip": "..\\Clinic_Appointment_System_Data_Access_Layer\\PaymentData.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAQwEcAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-13T12:05:54.559Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "DoctorService.cs",
+              "DocumentMoniker": "H:\\C# Projects\\01_Clinic_Appointment_System\\Project\\Clinic_Appointment_System_Business_Layer\\DoctorService.cs",
+              "RelativeDocumentMoniker": "..\\Clinic_Appointment_System_Business_Layer\\DoctorService.cs",
+              "ToolTip": "H:\\C# Projects\\01_Clinic_Appointment_System\\Project\\Clinic_Appointment_System_Business_Layer\\DoctorService.cs",
+              "RelativeToolTip": "..\\Clinic_Appointment_System_Business_Layer\\DoctorService.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-13T12:03:35.231Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

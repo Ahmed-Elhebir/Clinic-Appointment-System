@@ -1,0 +1,23 @@
+{
+  "ShowEmptyProjects": false,
+  "SelectedGroups": [
+    "H:\\C# Projects\\01_Clinic_Appointment_System\\Project\\Clinic_Appointment_System\\Properties\\Resources.resx"
+  ],
+  "ExpandedProjects": [
+    "H:\\C# Projects\\01_Clinic_Appointment_System\\Project\\Clinic_Appointment_System\\Clinic_Appointment_System.csproj"
+  ],
+  "EnableSpellChecker": true,
+  "ColumnOrder": [
+    "name",
+    "type",
+    "neutral-value",
+    "neutral-comment",
+    "file-path",
+    "file-name"
+  ],
+  "VisibleColumnKeys": [
+    "name",
+    "neutral-comment",
+    "neutral-value"
+  ]
+}

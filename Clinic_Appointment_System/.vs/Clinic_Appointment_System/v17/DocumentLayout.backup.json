@@ -1,0 +1,132 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "H:\\C# Projects\\01_Clinic_Appointment_System\\Project\\Clinic_Appointment_System\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{7C083D84-13E0-4A15-9553-3BA6F710D15F}|Clinic_Appointment_System.csproj|h:\\c# projects\\01_clinic_appointment_system\\project\\clinic_appointment_system\\usercontrols\\uc_patients.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7C083D84-13E0-4A15-9553-3BA6F710D15F}|Clinic_Appointment_System.csproj|solutionrelative:usercontrols\\uc_patients.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7C083D84-13E0-4A15-9553-3BA6F710D15F}|Clinic_Appointment_System.csproj|h:\\c# projects\\01_clinic_appointment_system\\project\\clinic_appointment_system\\usercontrols\\uc_patients.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{7C083D84-13E0-4A15-9553-3BA6F710D15F}|Clinic_Appointment_System.csproj|solutionrelative:usercontrols\\uc_patients.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5366BB86-F4C3-414D-8C44-1F094EF166A3}|..\\Clinic_Appointment_System_Data_Access_Layer\\Clinic_Appointment_System_Data_Access_Layer.csproj|h:\\c# projects\\01_clinic_appointment_system\\project\\clinic_appointment_system_data_access_layer\\patientdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7C083D84-13E0-4A15-9553-3BA6F710D15F}|Clinic_Appointment_System.csproj|H:\\C# Projects\\01_Clinic_Appointment_System\\Project\\Clinic_Appointment_System\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7C083D84-13E0-4A15-9553-3BA6F710D15F}|Clinic_Appointment_System.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C2C2AFB-B3F9-4448-9E2F-2D409CF74699}|..\\Clinic_Appointment_System_Business_Layer\\Clinic_Appointment_System_Business_Layer.csproj|h:\\c# projects\\01_clinic_appointment_system\\project\\clinic_appointment_system_business_layer\\patientservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "H:\\C# Projects\\01_Clinic_Appointment_System\\Project\\Clinic_Appointment_System\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "H:\\C# Projects\\01_Clinic_Appointment_System\\Project\\Clinic_Appointment_System\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-19T05:59:42.155Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UC_Patients.cs",
+              "DocumentMoniker": "H:\\C# Projects\\01_Clinic_Appointment_System\\Project\\Clinic_Appointment_System\\UserControls\\UC_Patients.cs",
+              "RelativeDocumentMoniker": "UserControls\\UC_Patients.cs",
+              "ToolTip": "H:\\C# Projects\\01_Clinic_Appointment_System\\Project\\Clinic_Appointment_System\\UserControls\\UC_Patients.cs",
+              "RelativeToolTip": "UserControls\\UC_Patients.cs",
+              "ViewState": "AgIAAGkAAAAAAAAAAAAmwHMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-18T14:38:21.97Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "PatientService.cs",
+              "DocumentMoniker": "H:\\C# Projects\\01_Clinic_Appointment_System\\Project\\Clinic_Appointment_System_Business_Layer\\PatientService.cs",
+              "RelativeDocumentMoniker": "..\\Clinic_Appointment_System_Business_Layer\\PatientService.cs",
+              "ToolTip": "H:\\C# Projects\\01_Clinic_Appointment_System\\Project\\Clinic_Appointment_System_Business_Layer\\PatientService.cs",
+              "RelativeToolTip": "..\\Clinic_Appointment_System_Business_Layer\\PatientService.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAxwDQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-18T11:35:23.26Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "PatientData.cs",
+              "DocumentMoniker": "H:\\C# Projects\\01_Clinic_Appointment_System\\Project\\Clinic_Appointment_System_Data_Access_Layer\\PatientData.cs",
+              "RelativeDocumentMoniker": "..\\Clinic_Appointment_System_Data_Access_Layer\\PatientData.cs",
+              "ToolTip": "H:\\C# Projects\\01_Clinic_Appointment_System\\Project\\Clinic_Appointment_System_Data_Access_Layer\\PatientData.cs",
+              "RelativeToolTip": "..\\Clinic_Appointment_System_Data_Access_Layer\\PatientData.cs",
+              "ViewState": "AgIAAE8AAAAAAAAAAAAiwFUAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-18T08:41:57.172Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "FloatingWindowState": {
+        "Id": "f0759a9f-0c5a-428f-8dd0-5ab1c78dc23c",
+        "Display": 1,
+        "X": 138,
+        "Y": 47,
+        "Width": 986,
+        "Height": 631,
+        "WindowState": 0
+      },
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UC_Patients.cs [Design]",
+              "DocumentMoniker": "H:\\C# Projects\\01_Clinic_Appointment_System\\Project\\Clinic_Appointment_System\\UserControls\\UC_Patients.cs",
+              "RelativeDocumentMoniker": "UserControls\\UC_Patients.cs",
+              "ToolTip": "H:\\C# Projects\\01_Clinic_Appointment_System\\Project\\Clinic_Appointment_System\\UserControls\\UC_Patients.cs [Design]",
+              "RelativeToolTip": "UserControls\\UC_Patients.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-18T14:33:20.686Z",
+              "EditorCaption": " [Design]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{7C083D84-13E0-4A15-9553-3BA6F710D15F}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Clinic_Appointment_System</RootNamespace>
+    <AssemblyName>Clinic_Appointment_System</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System">
+      <HintPath>C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.8\System.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Core" />
+    <Reference Include="System.Design" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Appointment\AddEditAppointment.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Appointment\AddEditAppointment.Designer.cs">
+      <DependentUpon>AddEditAppointment.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Appointment\AppointmentDailyReport.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Appointment\AppointmentDailyReport.Designer.cs">
+      <DependentUpon>AppointmentDailyReport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Appointment\SearchControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Appointment\SearchControl.Designer.cs">
+      <DependentUpon>SearchControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Doctor\AddEditDoctor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Doctor\AddEditDoctor.Designer.cs">
+      <DependentUpon>AddEditDoctor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormDragHelper.cs" />
+    <Compile Include="MainMenu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainMenu.Designer.cs">
+      <DependentUpon>MainMenu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Patient\AddEditPatient.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Patient\AddEditPatient.Designer.cs">
+      <DependentUpon>AddEditPatient.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Payment\AddPayment.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Payment\AddPayment.Designer.cs">
+      <DependentUpon>AddPayment.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="MainMenuUserControls\UC_Appointments.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="MainMenuUserControls\UC_Appointments.Designer.cs">
+      <DependentUpon>UC_Appointments.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MainMenuUserControls\UC_Dashboard.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="MainMenuUserControls\UC_Dashboard.Designer.cs">
+      <DependentUpon>UC_Dashboard.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MainMenuUserControls\UC_Doctors.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="MainMenuUserControls\UC_Doctors.Designer.cs">
+      <DependentUpon>UC_Doctors.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MainMenuUserControls\UC_Patients.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="MainMenuUserControls\UC_Patients.Designer.cs">
+      <DependentUpon>UC_Patients.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MainMenuUserControls\UC_Settings.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="MainMenuUserControls\UC_Settings.Designer.cs">
+      <DependentUpon>UC_Settings.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MainMenuUserControls\UC_Users.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="MainMenuUserControls\UC_Users.Designer.cs">
+      <DependentUpon>UC_Users.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ThemeColors.cs" />
+    <EmbeddedResource Include="Appointment\AddEditAppointment.resx">
+      <DependentUpon>AddEditAppointment.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Appointment\AppointmentDailyReport.resx">
+      <DependentUpon>AppointmentDailyReport.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Appointment\SearchControl.resx">
+      <DependentUpon>SearchControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Doctor\AddEditDoctor.resx">
+      <DependentUpon>AddEditDoctor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainMenu.resx">
+      <DependentUpon>MainMenu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Patient\AddEditPatient.resx">
+      <DependentUpon>AddEditPatient.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Payment\AddPayment.resx">
+      <DependentUpon>AddPayment.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainMenuUserControls\UC_Appointments.resx">
+      <DependentUpon>UC_Appointments.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainMenuUserControls\UC_Dashboard.resx">
+      <DependentUpon>UC_Dashboard.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainMenuUserControls\UC_Doctors.resx">
+      <DependentUpon>UC_Doctors.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainMenuUserControls\UC_Patients.resx">
+      <DependentUpon>UC_Patients.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainMenuUserControls\UC_Settings.resx">
+      <DependentUpon>UC_Settings.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainMenuUserControls\UC_Users.resx">
+      <DependentUpon>UC_Users.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Clinic_Appointment_System_Business_Layer\Clinic_Appointment_System_Business_Layer.csproj">
+      <Project>{8c2c2afb-b3f9-4448-9e2f-2d409cf74699}</Project>
+      <Name>Clinic_Appointment_System_Business_Layer</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Clinic_Appointment_System_Global\Clinic_Appointment_System_Global.csproj">
+      <Project>{f50259a2-f1f7-4087-9d31-d110a3d5fa8c}</Project>
+      <Name>Clinic_Appointment_System_Global</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Close 32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PersonDetails 32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\edit 32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Delete 32.png" />
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <None Include="Resources\add_patient_32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\add_patient.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\manage_patients_form.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\close_white_32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dashboard_Black_32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Add_20.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Add_Black_20.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

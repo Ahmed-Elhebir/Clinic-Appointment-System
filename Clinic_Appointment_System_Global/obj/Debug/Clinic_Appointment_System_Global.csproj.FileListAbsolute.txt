@@ -1,0 +1,6 @@
+H:\C# Projects\01_Clinic_Appointment_System\Project\Clinic_Appointment_System_Global\bin\Debug\Clinic_Appointment_System_Global.dll
+H:\C# Projects\01_Clinic_Appointment_System\Project\Clinic_Appointment_System_Global\bin\Debug\Clinic_Appointment_System_Global.pdb
+H:\C# Projects\01_Clinic_Appointment_System\Project\Clinic_Appointment_System_Global\obj\Debug\Clinic_Appointment_System_Global.csproj.AssemblyReference.cache
+H:\C# Projects\01_Clinic_Appointment_System\Project\Clinic_Appointment_System_Global\obj\Debug\Clinic_Appointment_System_Global.csproj.CoreCompileInputs.cache
+H:\C# Projects\01_Clinic_Appointment_System\Project\Clinic_Appointment_System_Global\obj\Debug\Clinic_Appointment_System_Global.dll
+H:\C# Projects\01_Clinic_Appointment_System\Project\Clinic_Appointment_System_Global\obj\Debug\Clinic_Appointment_System_Global.pdb
