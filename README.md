@@ -90,7 +90,9 @@ The system enforces a business rule that prevents patients from having multiple 
 2. Open the solution in Visual Studio
 3. Update the connection string in `App.config` if needed:
 ```xml
-   
+  <connectionStrings>
+		<add name="ClinicAppointment" connectionString="Server=.;Initial Catalog=Clinic_Appointment_System;Integrated Security=True" providerName="System.Data.SqlClient"/>
+	</connectionStrings>
 ```
    - Replace `Server=.` with your SQL Server instance name if different
    - Ensure Windows Authentication (Integrated Security) is enabled, or update with SQL credentials
@@ -114,6 +116,6 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 ## Contact
 
 Ahmed Elhebir  
-Email: ahmed.elheber010@gmail.com
-LinkedIn: https://linkedin.com/in/ahmed-elhebir
-Location: Riyadh, Saudi Arabia
+Email: ahmed.elheber010@gmail.com  
+LinkedIn: https://linkedin.com/in/ahmed-elhebir  
+Location: Riyadh, Saudi Arabia  
